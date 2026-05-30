@@ -5,9 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Options are only available since client version 2.3.0
-# If you use an older client then switch to desired_capabilities
-# instead: https://github.com/appium/python-client/pull/720
+
 options = UiAutomator2Options().load_capabilities(
     {
         # Specify device and os_version for testing

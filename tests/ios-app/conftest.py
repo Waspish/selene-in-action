@@ -15,7 +15,7 @@ def mobile_management():
             "platformVersion": "16",
             "deviceName": "iPhone 14 Pro Max",
             # Set Url of the application under test
-            "app": "bs://sample.app",
+            "app": "bs://40d6266b808b6114217c397b2f6bcac2e4422702",
             # Browserstack capabilities
             'bstack:options': {
                 "projectName": "First Appium",

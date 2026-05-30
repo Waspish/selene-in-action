@@ -3,7 +3,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selene import have, browser
 
 def test_search():
-
+    print(browser.config.driver.capabilities.get('platformName'))
     with step('Type search'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, "Search Wikipedia")).click()
         browser.element((AppiumBy.ID, "org.wikipedia.alpha:id/search_src_text")).type(
